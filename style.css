@@ -688,6 +688,139 @@ body {
   text-decoration: underline;
 }
 
+/* Contact Section */
+
+.contact-section {
+  padding: 120px 0;
+  background: #f8fafc;
+  scroll-margin-top: 76px;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 80px;
+}
+
+.contact-intro h2 {
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  margin-bottom: 26px;
+}
+
+.contact-intro p:not(.section-label) {
+  color: #647086;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.contact-intro .button {
+  margin-top: 16px;
+}
+
+.contact-card {
+  padding: 40px;
+  background: #ffffff;
+  border: 1px solid #e3e8ef;
+  border-radius: 16px;
+  min-width: 0;
+}
+
+.contact-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  padding: 20px 0;
+  border-top: 1px solid #edf0f4;
+}
+
+.contact-label {
+  display: block;
+  color: #647086;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+
+.contact-item a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+.contact-note {
+  color: #647086;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-top: 24px;
+}
+
+
+/* Footer */
+
+.site-footer {
+  padding: 48px 0 24px;
+  background: #172033;
+  color: #ffffff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding-bottom: 36px;
+}
+
+.footer-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.footer-brand > p:not(.footer-name) {
+  color: #cbd5e1;
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 24px;
+  justify-content: flex-end;
+}
+
+.footer-links a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  padding-top: 24px;
+  border-top: 1px solid #334155;
+}
+
+.footer-bottom p {
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+
 
 
 
@@ -818,6 +951,30 @@ body {
     max-width: 420px;
     margin: 0 auto;
   }
+  
+  .contact-section {
+    padding: 80px 0;
+    scroll-margin-top: 68px;
+  }
+
+  .contact-layout {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .contact-card {
+    padding: 28px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .footer-links {
+    justify-content: flex-start;
+  }
+
 
 
 
