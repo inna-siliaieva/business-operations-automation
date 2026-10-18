@@ -820,6 +820,32 @@ body {
   font-size: 0.85rem;
 }
 
+/* Related Project Links */
+
+.example-project-link {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 20px;
+  color: #2563eb;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.example-project-link:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.example-project-link:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 4px;
+  border-radius: 3px;
+}
+
+
 
 
 
