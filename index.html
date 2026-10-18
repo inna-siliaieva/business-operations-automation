@@ -1428,6 +1428,19 @@
 
 </footer>
 
+<!-- Mobile Navigation Auto Close -->
+<script>
+  document.querySelectorAll('.mobile-nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      const mobileMenu = document.querySelector('.mobile-menu');
+
+      if (mobileMenu) {
+        mobileMenu.removeAttribute('open');
+      }
+    });
+  });
+</script>
+
 
 </body>
 </html>
