@@ -1201,3 +1201,46 @@ body {
     background: #eff6ff;
   }
 }
+
+/* Language Switcher */
+
+.language-switcher {
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+
+.language-switcher select {
+  padding: 9px 12px;
+  border: 1px solid #e3e8ef;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #172033;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.language-switcher select:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 760px) {
+  .language-switcher {
+    margin-left: auto;
+    margin-right: 12px;
+  }
+}
+
